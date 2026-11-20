@@ -1,11 +1,15 @@
-name: Build Forge 1.20.1 Mod
+name: Build & Release Forge 1.20.1 Mod
 
 on:
   push:
     branches: [ main ]
+    tags: [ 'v*' ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -32,3 +36,20 @@ jobs:
         with:
           name: swiftskyblock-1.20.1-jar
           path: build/libs/swiftskyblock-*.jar
+
+      - name: Create GitHub Release on Tag
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${GITHUB_REF#refs/tags/}"
+          gh release create "$TAG" build/libs/swiftskyblock-*.jar \
+            --title "Swift Skyblock $TAG (Forge 1.20.1)" \
+            --notes "Minecraft Forge 1.20.1 向けの単体完結・待ち時間ゼロ スカイブロックMOD です。
+
+          ### 導入方法（3ステップ）
+          1. **Minecraft Forge 1.20.1** (47.x) をインストール
+          2. 下の Assets から \`swiftskyblock-1.20.1-*.jar\` をダウンロードし、\`.minecraft/mods\` フォルダへ配置
+          3. ゲーム起動後、ワールド新規作成の「世界」タブでワールドタイプを **「スカイブロック (Swift Skyblock)」** にしてスタート！
+
+          前提MOD・配布ワールドは不要です。"
