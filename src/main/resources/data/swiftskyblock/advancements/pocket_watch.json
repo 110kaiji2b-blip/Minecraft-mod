@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:time_pocket_watch"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.pocket_watch.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.pocket_watch.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:time_pocket_watch"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:acceleration_lantern"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "swiftskyblock:block/cobble_gen_tier1"
+  }
+}

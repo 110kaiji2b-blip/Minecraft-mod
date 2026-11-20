@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:turbo_furnace"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.turbo_furnace.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.turbo_furnace.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:turbo_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:sieve"
+}

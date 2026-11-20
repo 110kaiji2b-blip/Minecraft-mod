@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:rapid_crucible"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.crucible.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.crucible.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:rapid_crucible"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:barrel"
+}

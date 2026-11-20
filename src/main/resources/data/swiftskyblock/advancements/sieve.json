@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:rapid_sieve"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.sieve.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.sieve.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:rapid_sieve"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:hammer"
+}

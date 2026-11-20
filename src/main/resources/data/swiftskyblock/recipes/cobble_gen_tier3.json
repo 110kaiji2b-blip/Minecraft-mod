@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "D2D",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "swiftskyblock:cobble_gen_tier2"
+    }
+  },
+  "result": {
+    "item": "swiftskyblock:cobble_gen_tier3"
+  }
+}

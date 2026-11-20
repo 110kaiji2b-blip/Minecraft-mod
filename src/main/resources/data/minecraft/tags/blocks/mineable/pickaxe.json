@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "swiftskyblock:compressed_cobblestone",
+    "swiftskyblock:double_compressed_cobblestone",
+    "swiftskyblock:cobble_gen_tier1",
+    "swiftskyblock:cobble_gen_tier2",
+    "swiftskyblock:cobble_gen_tier3",
+    "swiftskyblock:turbo_furnace",
+    "swiftskyblock:rapid_crucible",
+    "swiftskyblock:acceleration_lantern"
+  ]
+}

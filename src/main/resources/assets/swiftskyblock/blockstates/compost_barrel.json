@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "content=empty": {
+      "model": "swiftskyblock:block/compost_barrel_empty"
+    },
+    "content=compost": {
+      "model": "swiftskyblock:block/compost_barrel_compost"
+    },
+    "content=dirt": {
+      "model": "swiftskyblock:block/compost_barrel_dirt"
+    },
+    "content=water": {
+      "model": "swiftskyblock:block/compost_barrel_water"
+    },
+    "content=lava": {
+      "model": "swiftskyblock:block/compost_barrel_lava"
+    }
+  }
+}

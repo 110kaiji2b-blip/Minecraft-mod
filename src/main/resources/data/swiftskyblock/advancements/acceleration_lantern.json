@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:acceleration_lantern"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.acceleration_lantern.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.acceleration_lantern.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:acceleration_lantern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:turbo_furnace"
+}

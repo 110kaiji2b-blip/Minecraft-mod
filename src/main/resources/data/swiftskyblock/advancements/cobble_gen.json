@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:cobble_gen_tier1"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.cobble_gen.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.cobble_gen.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:cobble_gen_tier1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:sieve"
+}

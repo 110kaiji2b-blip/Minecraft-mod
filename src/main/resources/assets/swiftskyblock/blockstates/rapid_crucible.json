@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_lava=false": {
+      "model": "swiftskyblock:block/rapid_crucible"
+    },
+    "has_lava=true": {
+      "model": "swiftskyblock:block/rapid_crucible_lava"
+    }
+  }
+}

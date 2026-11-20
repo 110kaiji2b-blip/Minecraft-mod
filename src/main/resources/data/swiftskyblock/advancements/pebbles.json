@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:stone_pebble"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.pebbles.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.pebbles.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:stone_pebble"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "swiftskyblock:root"
+}

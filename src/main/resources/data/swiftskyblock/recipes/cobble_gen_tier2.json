@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I1I",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "swiftskyblock:cobble_gen_tier1"
+    }
+  },
+  "result": {
+    "item": "swiftskyblock:cobble_gen_tier2"
+  }
+}
