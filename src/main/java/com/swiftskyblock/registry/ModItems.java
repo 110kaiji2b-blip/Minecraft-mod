@@ -3,6 +3,8 @@ package com.swiftskyblock.registry;
 import com.swiftskyblock.SwiftSkyblockMod;
 import com.swiftskyblock.item.GuideBookItem;
 import com.swiftskyblock.item.HammerItem;
+import com.swiftskyblock.item.MobCaptureOrbItem;
+import com.swiftskyblock.item.MobSummoningStaffItem;
 import com.swiftskyblock.item.SkyMagnetItem;
 import com.swiftskyblock.item.TimePocketWatchItem;
 import com.swiftskyblock.item.TooltipBlockItem;
@@ -29,6 +31,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> TIME_POCKET_WATCH = ITEMS.register("time_pocket_watch",
             () -> new TimePocketWatchItem(new Item.Properties().stacksTo(1).rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> MOB_SUMMONING_STAFF = ITEMS.register("mob_summoning_staff",
+            () -> new MobSummoningStaffItem(new Item.Properties().durability(200).rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> MOB_CAPTURE_ORB = ITEMS.register("mob_capture_orb",
+            () -> new MobCaptureOrbItem(new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON)));
 
     // Crushing Hammers (generous durability for zero-annoyance play)
     public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer",

@@ -28,5 +28,13 @@ public class ModNetworking {
                 CraftOmniItemPacket::handle,
                 Optional.of(NetworkDirection.PLAY_TO_SERVER)
         );
+        CHANNEL.registerMessage(
+                packetId++,
+                SelectSummonMobPacket.class,
+                SelectSummonMobPacket::encode,
+                SelectSummonMobPacket::decode,
+                SelectSummonMobPacket::handle,
+                Optional.of(NetworkDirection.PLAY_TO_SERVER)
+        );
     }
 }

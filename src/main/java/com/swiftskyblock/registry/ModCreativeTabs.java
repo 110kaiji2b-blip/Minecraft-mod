@@ -20,6 +20,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.SKYBLOCK_GUIDE.get());
                         output.accept(ModItems.SKY_MAGNET.get());
                         output.accept(ModItems.TIME_POCKET_WATCH.get());
+                        output.accept(ModItems.MOB_SUMMONING_STAFF.get());
+                        output.accept(ModItems.MOB_CAPTURE_ORB.get());
                         output.accept(ModItems.STONE_PEBBLE.get());
                         output.accept(ModItems.WOODEN_HAMMER.get());
                         output.accept(ModItems.STONE_HAMMER.get());

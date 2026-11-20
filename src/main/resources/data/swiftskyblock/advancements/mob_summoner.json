@@ -1,0 +1,32 @@
+{
+  "parent": "swiftskyblock:sieve",
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:mob_summoning_staff"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.mob_summoner.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.mob_summoner.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:mob_summoning_staff"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
