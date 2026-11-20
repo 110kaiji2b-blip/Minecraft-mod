@@ -53,7 +53,7 @@
   "message.swiftskyblock.magnet_on": "Sky Magnet: ON",
   "message.swiftskyblock.magnet_off": "Sky Magnet: OFF",
   "message.swiftskyblock.time_accelerated": "Fast-forwarded +%s ticks!",
-  "message.swiftskyblock.sieve_hint": "Hold Dirt, Gravel, Sand, Dust, or Soul Sand (Sneak+Right-click to sift a whole stack!)",
+  "message.swiftskyblock.sieve_hint": "Hold Dirt, Gravel, Sand, Dust, Netherrack, Soul Sand, Deepslate, End Stone, or Obsidian! (Sneak = whole stack)",
   "message.swiftskyblock.sieve_done": "Sifted %s blocks -> obtained %s items!",
   "message.swiftskyblock.barrel_clay": "Mixed Water + Dust -> Clay Block!",
   "message.swiftskyblock.barrel_compost": "Composting: %s / %s (Sneak to batch-fill!)",
@@ -91,5 +91,17 @@
   "advancements.swiftskyblock.acceleration_lantern.title": "Master of Time",
   "advancements.swiftskyblock.acceleration_lantern.desc": "Craft an Acceleration Lantern to boost nearby machines and crops to 4x speed!",
   "advancements.swiftskyblock.pocket_watch.title": "Zero Waiting",
-  "advancements.swiftskyblock.pocket_watch.desc": "Craft a Time Pocket Watch to fast-forward any machine or crop instantly!"
+  "advancements.swiftskyblock.pocket_watch.desc": "Craft a Time Pocket Watch to fast-forward any machine or crop instantly!",
+  "block.swiftskyblock.omni_synthesizer": "Omni Synthesizer",
+  "container.swiftskyblock.omni_synthesizer": "Omni Synthesizer",
+  "tooltip.swiftskyblock.omni_synthesizer": "Convert resources into Void Points (VP) and synthesize ANY survival item! Hopper compatible.",
+  "message.swiftskyblock.omni_charged": "+%s VP charged! (Total: %s VP)",
+  "gui.swiftskyblock.search": "Search item...",
+  "gui.swiftskyblock.omni_charge_hint": "Drop or Shift-click items to charge VP",
+  "gui.swiftskyblock.omni_cost": "Cost: %s VP",
+  "gui.swiftskyblock.omni_click_hint": "Click: x1 | Shift+Click: Full Stack",
+  "advancements.swiftskyblock.omni_synthesizer.title": "Creator of All Things",
+  "advancements.swiftskyblock.omni_synthesizer.desc": "Craft an Omni Synthesizer to unlock virtually every item in Minecraft!",
+  "advancements.swiftskyblock.end_portal.title": "Gateway to the End",
+  "advancements.swiftskyblock.end_portal.desc": "Craft an End Portal Frame to build your own portal to the End!"
 }

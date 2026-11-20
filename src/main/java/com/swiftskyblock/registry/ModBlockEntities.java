@@ -4,6 +4,7 @@ import com.swiftskyblock.SwiftSkyblockMod;
 import com.swiftskyblock.blockentity.AccelerationLanternBlockEntity;
 import com.swiftskyblock.blockentity.AutoCobbleGenBlockEntity;
 import com.swiftskyblock.blockentity.CompostBarrelBlockEntity;
+import com.swiftskyblock.blockentity.OmniSynthesizerBlockEntity;
 import com.swiftskyblock.blockentity.RapidCrucibleBlockEntity;
 import com.swiftskyblock.blockentity.RapidSieveBlockEntity;
 import com.swiftskyblock.blockentity.TurboFurnaceBlockEntity;
@@ -42,4 +43,8 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<AccelerationLanternBlockEntity>> ACCELERATION_LANTERN =
             BLOCK_ENTITIES.register("acceleration_lantern", () ->
                     BlockEntityType.Builder.of(AccelerationLanternBlockEntity::new, ModBlocks.ACCELERATION_LANTERN.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<OmniSynthesizerBlockEntity>> OMNI_SYNTHESIZER =
+            BLOCK_ENTITIES.register("omni_synthesizer", () ->
+                    BlockEntityType.Builder.of(OmniSynthesizerBlockEntity::new, ModBlocks.OMNI_SYNTHESIZER.get()).build(null));
 }

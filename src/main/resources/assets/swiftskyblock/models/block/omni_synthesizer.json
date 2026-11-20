@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "swiftskyblock:block/omni_synthesizer_top",
+    "bottom": "swiftskyblock:block/omni_synthesizer_bottom",
+    "side": "swiftskyblock:block/omni_synthesizer_side"
+  }
+}

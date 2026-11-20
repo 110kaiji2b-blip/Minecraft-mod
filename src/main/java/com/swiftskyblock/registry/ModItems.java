@@ -85,4 +85,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ACCELERATION_LANTERN_ITEM = ITEMS.register("acceleration_lantern",
             () -> new TooltipBlockItem(ModBlocks.ACCELERATION_LANTERN.get(), new Item.Properties().rarity(Rarity.RARE), "tooltip.swiftskyblock.acceleration_lantern"));
+
+    public static final RegistryObject<Item> OMNI_SYNTHESIZER_ITEM = ITEMS.register("omni_synthesizer",
+            () -> new TooltipBlockItem(ModBlocks.OMNI_SYNTHESIZER.get(), new Item.Properties().rarity(Rarity.EPIC), "tooltip.swiftskyblock.omni_synthesizer"));
 }

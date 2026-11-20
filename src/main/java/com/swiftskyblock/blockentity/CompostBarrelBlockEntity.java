@@ -168,6 +168,27 @@ public class CompostBarrelBlockEntity extends BlockEntity {
                 player.displayClientMessage(Component.translatable("message.swiftskyblock.barrel_clay").withStyle(ChatFormatting.AQUA), true);
                 return InteractionResult.CONSUME;
             }
+            if (held.is(Items.BONE_MEAL)) {
+                consumeItem(player, held, 1);
+                giveOrDrop(player, new ItemStack(Items.ICE));
+                reset();
+                level.playSound(null, worldPosition, SoundEvents.GLASS_PLACE, SoundSource.BLOCKS, 0.8f, 1.2f);
+                return InteractionResult.CONSUME;
+            }
+            if (held.is(ItemTags.LEAVES)) {
+                consumeItem(player, held, 1);
+                giveOrDrop(player, new ItemStack(Items.MOSS_BLOCK));
+                reset();
+                level.playSound(null, worldPosition, SoundEvents.MOSS_PLACE, SoundSource.BLOCKS, 0.8f, 1.0f);
+                return InteractionResult.CONSUME;
+            }
+            if (held.is(Items.RED_MUSHROOM) || held.is(Items.BROWN_MUSHROOM)) {
+                consumeItem(player, held, 1);
+                giveOrDrop(player, new ItemStack(Items.MYCELIUM));
+                reset();
+                level.playSound(null, worldPosition, SoundEvents.ROOTED_DIRT_PLACE, SoundSource.BLOCKS, 0.8f, 1.0f);
+                return InteractionResult.CONSUME;
+            }
             if (held.is(Items.LAVA_BUCKET)) {
                 replaceHeldBucket(player, hand, held, new ItemStack(Items.BUCKET));
                 giveOrDrop(player, new ItemStack(Items.OBSIDIAN));
@@ -190,6 +211,20 @@ public class CompostBarrelBlockEntity extends BlockEntity {
                 giveOrDrop(player, new ItemStack(Items.OBSIDIAN));
                 reset();
                 level.playSound(null, worldPosition, SoundEvents.LAVA_EXTINGUISH, SoundSource.BLOCKS, 0.8f, 1.0f);
+                return InteractionResult.CONSUME;
+            }
+            if (held.is(Items.COBBLESTONE) || held.is(Items.STONE)) {
+                consumeItem(player, held, 1);
+                giveOrDrop(player, new ItemStack(Items.COBBLED_DEEPSLATE, 2));
+                reset();
+                level.playSound(null, worldPosition, SoundEvents.DEEPSLATE_PLACE, SoundSource.BLOCKS, 0.8f, 1.0f);
+                return InteractionResult.CONSUME;
+            }
+            if (held.is(Items.OBSIDIAN)) {
+                consumeItem(player, held, 1);
+                giveOrDrop(player, new ItemStack(Items.CRYING_OBSIDIAN));
+                reset();
+                level.playSound(null, worldPosition, SoundEvents.RESPAWN_ANCHOR_CHARGE, SoundSource.BLOCKS, 0.7f, 1.1f);
                 return InteractionResult.CONSUME;
             }
             if (held.is(ModBlocks.DUST_BLOCK.get().asItem()) || held.is(Items.REDSTONE)) {

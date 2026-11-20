@@ -5,6 +5,7 @@ import com.swiftskyblock.block.AccelerationLanternBlock;
 import com.swiftskyblock.block.AutoCobbleGenBlock;
 import com.swiftskyblock.block.CompostBarrelBlock;
 import com.swiftskyblock.block.DustBlock;
+import com.swiftskyblock.block.OmniSynthesizerBlock;
 import com.swiftskyblock.block.RapidCrucibleBlock;
 import com.swiftskyblock.block.RapidSieveBlock;
 import com.swiftskyblock.block.TurboFurnaceBlock;
@@ -108,4 +109,11 @@ public class ModBlocks {
                     .sound(SoundType.LANTERN)
                     .noOcclusion()
                     .lightLevel(s -> 15)));
+
+    public static final RegistryObject<Block> OMNI_SYNTHESIZER = BLOCKS.register("omni_synthesizer",
+            () -> new OmniSynthesizerBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_PURPLE)
+                    .strength(4.0f, 12.0f)
+                    .sound(SoundType.AMETHYST)
+                    .lightLevel(s -> 10)));
 }

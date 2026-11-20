@@ -53,7 +53,7 @@
   "message.swiftskyblock.magnet_on": "スカイマグネット: ON",
   "message.swiftskyblock.magnet_off": "スカイマグネット: OFF",
   "message.swiftskyblock.time_accelerated": "時間を +%s ティック加速しました！",
-  "message.swiftskyblock.sieve_hint": "土・砂利・砂・ダスト・ソウルサンドを持って右クリック！（スニークで1スタック一括ふるい）",
+  "message.swiftskyblock.sieve_hint": "土・砂利・砂・ダスト・ネザーラック・ソウルサンド・深層岩・エンドストーン・黒曜石を右クリック！（スニークで1スタック一括）",
   "message.swiftskyblock.sieve_done": "%s個をふるい、合計%s個のアイテムを入手しました！",
   "message.swiftskyblock.barrel_clay": "水＋ダスト → 粘土ブロックを作成しました！",
   "message.swiftskyblock.barrel_compost": "堆肥チャージ: %s / %s（スニークで一括投入！）",
@@ -91,5 +91,17 @@
   "advancements.swiftskyblock.acceleration_lantern.title": "時間の支配者",
   "advancements.swiftskyblock.acceleration_lantern.desc": "加速ランタンをクラフトして周囲のマシンと作物を4倍速にしよう！",
   "advancements.swiftskyblock.pocket_watch.title": "待ち時間ゼロの世界",
-  "advancements.swiftskyblock.pocket_watch.desc": "懐中時短クロックをクラフトし、あらゆる設備の時間を一瞬で進めよう！"
+  "advancements.swiftskyblock.pocket_watch.desc": "懐中時短クロックをクラフトし、あらゆる設備の時間を一瞬で進めよう！",
+  "block.swiftskyblock.omni_synthesizer": "万能錬成祭壇",
+  "container.swiftskyblock.omni_synthesizer": "万能錬成祭壇 (全アイテム対応)",
+  "tooltip.swiftskyblock.omni_synthesizer": "資源を虚空ポイント(VP)に変換し、あらゆるサバイバルアイテムを検索・錬成できます！ホッパー自動投入対応。",
+  "message.swiftskyblock.omni_charged": "+%s VP チャージ完了！（合計: %s VP）",
+  "gui.swiftskyblock.search": "アイテム名で検索...",
+  "gui.swiftskyblock.omni_charge_hint": "左スロット投入 / ShiftクリックでVPチャージ",
+  "gui.swiftskyblock.omni_cost": "必要ポイント: %s VP",
+  "gui.swiftskyblock.omni_click_hint": "クリック: 1個 | Shift+クリック: 1スタック",
+  "advancements.swiftskyblock.omni_synthesizer.title": "万物の錬成者",
+  "advancements.swiftskyblock.omni_synthesizer.desc": "万能錬成祭壇をクラフトし、あらゆるアイテムを手に入れよう！",
+  "advancements.swiftskyblock.end_portal.title": "空から果てへ",
+  "advancements.swiftskyblock.end_portal.desc": "エンドポータルフレームをクラフトしてジ・エンドへの門を開こう！"
 }

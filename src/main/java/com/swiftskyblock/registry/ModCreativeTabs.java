@@ -34,6 +34,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.TURBO_FURNACE_ITEM.get());
                         output.accept(ModItems.RAPID_CRUCIBLE_ITEM.get());
                         output.accept(ModItems.ACCELERATION_LANTERN_ITEM.get());
+                        output.accept(ModItems.OMNI_SYNTHESIZER_ITEM.get());
                         output.accept(ModItems.DUST_BLOCK_ITEM.get());
                         output.accept(ModItems.COMPRESSED_COBBLESTONE_ITEM.get());
                         output.accept(ModItems.DOUBLE_COMPRESSED_COBBLESTONE_ITEM.get());

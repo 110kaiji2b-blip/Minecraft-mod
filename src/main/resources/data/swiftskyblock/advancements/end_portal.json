@@ -1,0 +1,32 @@
+{
+  "parent": "swiftskyblock:crucible",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.end_portal.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.end_portal.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_portal_frame"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
