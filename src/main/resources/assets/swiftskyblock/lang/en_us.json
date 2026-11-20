@@ -125,5 +125,22 @@
   "message.swiftskyblock.orb_captured": "Captured %s!",
   "message.swiftskyblock.orb_released": "Released %s!",
   "advancements.swiftskyblock.mob_summoner.title": "Master Summoner",
-  "advancements.swiftskyblock.mob_summoner.desc": "Craft a Mob Summoning Staff to summon animals, villagers, monsters, and bosses on demand!"
+  "advancements.swiftskyblock.mob_summoner.desc": "Craft a Mob Summoning Staff to summon animals, villagers, monsters, and bosses on demand!",
+  "item.swiftskyblock.stone_builders_wand": "Stone Builder's Wand",
+  "item.swiftskyblock.diamond_builders_wand": "Diamond Builder's Wand",
+  "block.swiftskyblock.angel_block": "Angel Block",
+  "wand_mode.swiftskyblock.extend": "Extend Face",
+  "wand_mode.swiftskyblock.platform": "Flat Platform",
+  "wand_mode.swiftskyblock.bridge": "Straight Bridge",
+  "message.swiftskyblock.wand_mode": "Builder's Wand Mode: %s",
+  "message.swiftskyblock.wand_no_blocks": "No %s found in your inventory!",
+  "message.swiftskyblock.wand_placed": "Placed %s blocks!",
+  "tooltip.swiftskyblock.wand.mode": "Mode: %s",
+  "tooltip.swiftskyblock.wand.limit": "Max Blocks per Click: %s (7.5-block reach)",
+  "tooltip.swiftskyblock.wand.usage1": "Right-click face to bulk-place (Offhand block overrides material).",
+  "tooltip.swiftskyblock.wand.usage2": "Sneak + Right-click to switch mode (Extend / Platform / Bridge).",
+  "tooltip.swiftskyblock.angel_block.line1": "Right-click in mid-air to place floating anywhere!",
+  "tooltip.swiftskyblock.angel_block.line2": "Breaks instantly and returns straight to your inventory.",
+  "advancements.swiftskyblock.builders_wand.title": "Effortless Architect",
+  "advancements.swiftskyblock.builders_wand.desc": "Craft a Builder's Wand to expand platforms, walls, and bridges in one click!"
 }

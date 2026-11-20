@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "swiftskyblock:item/diamond_builders_wand"
+  }
+}

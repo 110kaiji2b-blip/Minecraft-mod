@@ -2,6 +2,7 @@ package com.swiftskyblock.registry;
 
 import com.swiftskyblock.SwiftSkyblockMod;
 import com.swiftskyblock.block.AccelerationLanternBlock;
+import com.swiftskyblock.block.AngelBlock;
 import com.swiftskyblock.block.AutoCobbleGenBlock;
 import com.swiftskyblock.block.CompostBarrelBlock;
 import com.swiftskyblock.block.DustBlock;
@@ -116,4 +117,11 @@ public class ModBlocks {
                     .strength(4.0f, 12.0f)
                     .sound(SoundType.AMETHYST)
                     .lightLevel(s -> 10)));
+
+    public static final RegistryObject<Block> ANGEL_BLOCK = BLOCKS.register("angel_block",
+            () -> new AngelBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.GOLD)
+                    .instabreak()
+                    .sound(SoundType.AMETHYST)
+                    .lightLevel(s -> 8)));
 }

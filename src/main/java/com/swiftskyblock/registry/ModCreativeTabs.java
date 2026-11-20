@@ -22,6 +22,9 @@ public class ModCreativeTabs {
                         output.accept(ModItems.TIME_POCKET_WATCH.get());
                         output.accept(ModItems.MOB_SUMMONING_STAFF.get());
                         output.accept(ModItems.MOB_CAPTURE_ORB.get());
+                        output.accept(ModItems.STONE_BUILDERS_WAND.get());
+                        output.accept(ModItems.DIAMOND_BUILDERS_WAND.get());
+                        output.accept(ModItems.ANGEL_BLOCK_ITEM.get());
                         output.accept(ModItems.STONE_PEBBLE.get());
                         output.accept(ModItems.WOODEN_HAMMER.get());
                         output.accept(ModItems.STONE_HAMMER.get());

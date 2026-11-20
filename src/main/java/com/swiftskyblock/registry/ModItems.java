@@ -1,6 +1,8 @@
 package com.swiftskyblock.registry;
 
 import com.swiftskyblock.SwiftSkyblockMod;
+import com.swiftskyblock.item.AngelBlockItem;
+import com.swiftskyblock.item.BuildersWandItem;
 import com.swiftskyblock.item.GuideBookItem;
 import com.swiftskyblock.item.HammerItem;
 import com.swiftskyblock.item.MobCaptureOrbItem;
@@ -37,6 +39,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOB_CAPTURE_ORB = ITEMS.register("mob_capture_orb",
             () -> new MobCaptureOrbItem(new Item.Properties().stacksTo(16).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<Item> STONE_BUILDERS_WAND = ITEMS.register("stone_builders_wand",
+            () -> new BuildersWandItem(9, 1, 5, new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<Item> DIAMOND_BUILDERS_WAND = ITEMS.register("diamond_builders_wand",
+            () -> new BuildersWandItem(64, 2, 12, new Item.Properties().stacksTo(1).rarity(Rarity.RARE)));
 
     // Crushing Hammers (generous durability for zero-annoyance play)
     public static final RegistryObject<Item> WOODEN_HAMMER = ITEMS.register("wooden_hammer",
@@ -96,4 +104,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> OMNI_SYNTHESIZER_ITEM = ITEMS.register("omni_synthesizer",
             () -> new TooltipBlockItem(ModBlocks.OMNI_SYNTHESIZER.get(), new Item.Properties().rarity(Rarity.EPIC), "tooltip.swiftskyblock.omni_synthesizer"));
+
+    public static final RegistryObject<Item> ANGEL_BLOCK_ITEM = ITEMS.register("angel_block",
+            () -> new AngelBlockItem(ModBlocks.ANGEL_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
 }

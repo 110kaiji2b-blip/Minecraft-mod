@@ -125,5 +125,22 @@
   "message.swiftskyblock.orb_captured": "「%s」を捕獲しました！",
   "message.swiftskyblock.orb_released": "「%s」を解放しました！",
   "advancements.swiftskyblock.mob_summoner.title": "召喚術師",
-  "advancements.swiftskyblock.mob_summoner.desc": "モブ召喚の杖をクラフトし、動物・村人・モンスター・ボスを自在に召喚しよう！"
+  "advancements.swiftskyblock.mob_summoner.desc": "モブ召喚の杖をクラフトし、動物・村人・モンスター・ボスを自在に召喚しよう！",
+  "item.swiftskyblock.stone_builders_wand": "石の建築の杖",
+  "item.swiftskyblock.diamond_builders_wand": "ダイヤの建築の杖",
+  "block.swiftskyblock.angel_block": "エンジェルブロック",
+  "wand_mode.swiftskyblock.extend": "面拡張",
+  "wand_mode.swiftskyblock.platform": "水平床 (3x3 / 5x5)",
+  "wand_mode.swiftskyblock.bridge": "一直線ブリッジ",
+  "message.swiftskyblock.wand_mode": "建築の杖 モード切替: %s",
+  "message.swiftskyblock.wand_no_blocks": "インベントリに「%s」がありません！",
+  "message.swiftskyblock.wand_placed": "%s個のブロックを一括設置しました！",
+  "tooltip.swiftskyblock.wand.mode": "現在のモード: %s",
+  "tooltip.swiftskyblock.wand.limit": "最大一括設置数: %s個（リーチ7.5ブロック）",
+  "tooltip.swiftskyblock.wand.usage1": "ブロック面を右クリックで一括設置（オフハンドにブロックを持つとその種類を設置）",
+  "tooltip.swiftskyblock.wand.usage2": "スニーク＋右クリックでモード切替（面拡張 / 水平床 / 直線ブリッジ）",
+  "tooltip.swiftskyblock.angel_block.line1": "空中に向かって右クリックで支えなしに空中設置！",
+  "tooltip.swiftskyblock.angel_block.line2": "左クリックで瞬時に壊れ、直接インベントリへ戻ります。",
+  "advancements.swiftskyblock.builders_wand.title": "快適スカイ建築家",
+  "advancements.swiftskyblock.builders_wand.desc": "建築の杖をクラフトして、床・壁・橋をワンクリックで広げよう！"
 }

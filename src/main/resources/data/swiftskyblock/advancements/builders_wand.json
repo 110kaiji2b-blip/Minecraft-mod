@@ -1,0 +1,33 @@
+{
+  "parent": "swiftskyblock:root",
+  "display": {
+    "icon": {
+      "item": "swiftskyblock:stone_builders_wand"
+    },
+    "title": {
+      "translate": "advancements.swiftskyblock.builders_wand.title"
+    },
+    "description": {
+      "translate": "advancements.swiftskyblock.builders_wand.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_wand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "swiftskyblock:stone_builders_wand",
+              "swiftskyblock:diamond_builders_wand"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
