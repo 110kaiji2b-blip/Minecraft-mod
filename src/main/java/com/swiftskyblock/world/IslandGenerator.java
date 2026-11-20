@@ -1,6 +1,5 @@
 package com.swiftskyblock.world;
 
-import com.swiftskyblock.registry.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -93,24 +92,15 @@ public class IslandGenerator {
             }
         }
 
-        // Starter Chest at (cx - 1, cy + 1, cz - 1) facing SOUTH
+        // Starter Chest at (cx - 1, cy + 1, cz - 1) facing SOUTH (classic minimal Skyblock start)
         BlockPos chestPos = new BlockPos(cx - 1, cy + 1, cz - 1);
         level.setBlock(chestPos, Blocks.CHEST.defaultBlockState().setValue(ChestBlock.FACING, Direction.SOUTH), 3);
         BlockEntity be = level.getBlockEntity(chestPos);
         if (be instanceof ChestBlockEntity chest) {
-            chest.setItem(0, new ItemStack(Items.ICE, 2));
+            chest.setItem(0, new ItemStack(Items.ICE, 1));
             chest.setItem(1, new ItemStack(Items.LAVA_BUCKET, 1));
-            chest.setItem(2, new ItemStack(Items.OAK_SAPLING, 2));
-            chest.setItem(3, new ItemStack(Items.BONE_MEAL, 8));
-            chest.setItem(4, new ItemStack(Items.APPLE, 4));
-            chest.setItem(5, new ItemStack(ModItems.WOODEN_HAMMER.get(), 1));
-            chest.setItem(6, new ItemStack(ModItems.SKY_MAGNET.get(), 1));
-            chest.setItem(7, new ItemStack(ModItems.SKYBLOCK_GUIDE.get(), 1));
             chest.setChanged();
         }
-
-        // Torch for early mob safety
-        level.setBlock(new BlockPos(cx - 2, cy + 1, cz - 2), Blocks.TORCH.defaultBlockState(), 3);
 
         return new BlockPos(cx, cy + 1, cz);
     }

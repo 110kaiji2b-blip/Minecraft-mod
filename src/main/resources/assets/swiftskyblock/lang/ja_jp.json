@@ -44,7 +44,7 @@
   "tooltip.swiftskyblock.rapid_crucible": "たいまつ・マグマ・溶岩などの熱源の上に置き、丸石を入れると超高速で溶岩を生成！",
   "tooltip.swiftskyblock.acceleration_lantern": "周囲4ブロック以内のマシン・かまど・ホッパー・作物を4倍速に加速！",
   "message.swiftskyblock.welcome": "=== Swift Skyblock へようこそ！ ===",
-  "message.swiftskyblock.welcome_tip": "ヒント: スニーク連打で木がすぐ育ちます！チェスト内のガイドを右クリックか /sb guide で進め方を確認できます。",
+  "message.swiftskyblock.welcome_tip": "ヒント: スニーク連打で木がすぐ育ちます！進め方はいつでも /sb guide で確認できます。",
   "message.swiftskyblock.island_created": "新しいスカイブロックの島を (%s, %s, %s) に生成しました！",
   "message.swiftskyblock.teleported_home": "島のホーム地点へ帰還しました！",
   "message.swiftskyblock.home_set": "島のホーム地点を (%s, %s, %s) に設定しました！",

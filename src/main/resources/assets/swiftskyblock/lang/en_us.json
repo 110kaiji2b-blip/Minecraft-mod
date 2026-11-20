@@ -44,7 +44,7 @@
   "tooltip.swiftskyblock.rapid_crucible": "Place over a heat source (Torch/Magma/Lava) and feed Cobble for rapid Lava!",
   "tooltip.swiftskyblock.acceleration_lantern": "Accelerates nearby machines, furnaces, hoppers & crops to 4x speed!",
   "message.swiftskyblock.welcome": "=== Welcome to Swift Skyblock! ===",
-  "message.swiftskyblock.welcome_tip": "Tip: Sneak repeatedly to grow trees fast! Right-click the Guide in the chest or run /sb guide.",
+  "message.swiftskyblock.welcome_tip": "Tip: Sneak repeatedly to grow trees fast! Run /sb guide anytime for tips & recipes.",
   "message.swiftskyblock.island_created": "Created a new Skyblock island at (%s, %s, %s)!",
   "message.swiftskyblock.teleported_home": "Returned safely to your island home!",
   "message.swiftskyblock.home_set": "Island home set to (%s, %s, %s)!",
